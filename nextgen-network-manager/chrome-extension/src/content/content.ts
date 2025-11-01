@@ -95,21 +95,61 @@ async function injectDeviceNotes() {
           const mac = macMatch[0];
           const device = deviceMap.get(mac.toLowerCase());
 
-          // 创建或更新备注信息容器
-          let noteContainer = element.parentElement?.querySelector('.device-note-extension');
+          // 检查是否已存在设备信息卡片，避免重复创建
+          const macSpan = element as HTMLElement;
+          const parentLi = macSpan.closest('li') as HTMLElement;
+          
+          // 查找是否已经存在对应的设备信息li
+          let existingDeviceLi = null;
+          if (parentLi && parentLi.parentElement) {
+            const nextSibling = parentLi.nextElementSibling;
+            if (nextSibling && nextSibling.classList.contains('device-note-extension-li')) {
+              existingDeviceLi = nextSibling;
+            }
+          }
+          
+          let noteContainer = existingDeviceLi?.querySelector('.device-note-extension') as HTMLElement;
           if (!noteContainer) {
             noteContainer = document.createElement('div');
             noteContainer.className = 'device-note-extension';
             (noteContainer as HTMLElement).style.cssText = `
-              color: #1890ff;
-              font-size: 12px;
-              margin-top: 8px;
-              padding: 4px 6px;
-              background-color: #e6f7ff;
-              border-radius: 4px;
-              border: 1px solid #91d5ff;
+              margin: 0;
+              padding: 8px 12px;
+              background: linear-gradient(135deg, #ffffff, #f8f9fa);
+              border-radius: 10px;
+              border: 1px solid #e8e8e8;
+              box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+              width: 100%;
+              max-width: 600px;
+              box-sizing: border-box;
             `;
-            element.parentElement?.appendChild(noteContainer);
+            
+            if (parentLi && parentLi.parentElement && !existingDeviceLi) {
+              // 只有当不存在设备信息li时才创建新的li元素
+              const newLi = document.createElement('li');
+              newLi.className = 'device-note-extension-li'; // 添加标识类名
+              newLi.style.cssText = `
+                list-style: none;
+                margin: 4px 0;
+                padding: 0;
+              `;
+              
+              // 将设备信息卡片放入新的li中
+              newLi.appendChild(noteContainer as Node);
+              
+              // 在MAC地址的li后面插入新的li
+              parentLi.insertAdjacentElement('afterend', newLi);
+            } else if (existingDeviceLi) {
+              // 如果已存在，就使用现有的容器
+              existingDeviceLi.appendChild(noteContainer as Node);
+            } else {
+              // 如果找不到合适的位置，就使用原来的方法
+              const parentEl = element.parentElement as HTMLElement | null;
+              if (parentEl) {
+                parentEl.appendChild(noteContainer as Node);
+              }
+            }
           }
 
           // 显示设备信息
@@ -122,47 +162,68 @@ async function injectDeviceNotes() {
               const fullIconUrl = getFullIconUrl(device.icon_url);
 
               if (fullIconUrl.startsWith('http') || fullIconUrl.startsWith('/') || fullIconUrl.startsWith('data:')) {
-                iconElement = `<img src="${fullIconUrl}" alt="设备图标" style="width: 20px; height: 20px; margin-right: 6px; border-radius: 3px; vertical-align: middle;" onerror="this.style.display='none';" />`;
+                iconElement = `<img src="${fullIconUrl}" alt="设备图标" style="width: 48px; height: 48px; margin-right: 10px; border-radius: 8px; vertical-align: middle; object-fit: cover; box-shadow: 0 3px 6px rgba(0,0,0,0.12);" onerror="this.style.display='none';" />`;
               } else {
-                iconElement = `<i class="${device.icon_url}" style="font-size: 16px; margin-right: 6px; vertical-align: middle;"></i>`;
+                iconElement = `<i class="${device.icon_url}" style="font-size: 32px; margin-right: 10px; vertical-align: middle; color: #1890ff;"></i>`;
               }
             }
             
             noteContainer.innerHTML = `
-              <div style="display: flex; align-items: center; margin-bottom: 4px;">
-                ${iconElement}
-                <strong>备注:</strong> <span style="margin-left: 4px;">${device.note || '无备注'}</span>
+              <div style="display: grid; grid-template-columns: 48px 1fr auto; gap: 10px; align-items: center; min-height: 40px;">
+                <div style="justify-self: center;">
+                  ${iconElement}
+                </div>
+                <div style="min-width: 0; overflow: hidden;">
+                  <div style="display: flex; align-items: center; margin-bottom: 2px; gap: 6px;">
+                    <strong style="color: #262626; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0;">${device.note || '无备注'}</strong>
+                    <span style="flex-shrink: 0; padding: 1px 6px; background: ${device.category === '手机' ? '#e6f7ff' : device.category === '电脑' ? '#f6ffed' : device.category === '智能家居' ? '#fff7e6' : '#f0f0f0'}; border-radius: 8px; font-size: 9px; color: ${device.category === '手机' ? '#1890ff' : device.category === '电脑' ? '#52c41a' : device.category === '智能家居' ? '#fa8c16' : '#666'}; font-weight: 500; white-space: nowrap;">${device.category || '未知'}</span>
+                  </div>
+                  <div style="font-size: 10px; color: #8c8c8c; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                    <span style="margin-right: 8px;"><strong>品牌:</strong> ${device.brand || '未知'}</span>
+                    ${device.model ? `<span><strong>型号:</strong> ${device.model.length > 15 ? device.model.substring(0, 15) + '...' : device.model}</span>` : ''}
+                  </div>
+                </div>
+                <div>
+                  <button class="edit-device-note" style="
+                    padding: 4px 8px;
+                    font-size: 10px;
+                    background: linear-gradient(135deg, #1890ff, #096dd9);
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    box-shadow: 0 1px 3px rgba(24, 144, 255, 0.2);
+                    transition: all 0.2s ease;
+                    white-space: nowrap;
+                  " data-mac="${mac}" onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 6px rgba(24, 144, 255, 0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(24, 144, 255, 0.2)';">编辑</button>
+                </div>
               </div>
-              <div><strong>品牌:</strong> ${device.brand || '未知'}</div>
-              <div><strong>类别:</strong> ${device.category || '未知'}</div>
-              ${device.description ? `<div><strong>描述:</strong> ${device.description}</div>` : ''}
-              <button class="edit-device-note" style="
-                margin-top: 4px;
-                padding: 2px 6px;
-                font-size: 11px;
-                background: #1890ff;
-                color: white;
-                border: none;
-                border-radius: 3px;
-                cursor: pointer;
-              " data-mac="${mac}">编辑设备</button>
             `;
           } else {
             console.log(`未找到设备 ${mac} 的备注信息`);
             noteContainer.innerHTML = `
-              <div><strong>备注:</strong> 无备注</div>
-              <div><strong>品牌:</strong> 未知</div>
-              <div><strong>类别:</strong> 未知</div>
-              <button class="add-device-note" style="
-                margin-top: 4px;
-                padding: 2px 6px;
-                font-size: 11px;
-                background: #52c41a;
-                color: white;
-                border: none;
-                border-radius: 3px;
-                cursor: pointer;
-              " data-mac="${mac}">添加设备</button>
+              <div style="display: flex; align-items: center; gap: 8px; min-height: 40px;">
+                <div style="flex-shrink: 0;">
+                  <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #f0f0f0, #d9d9d9); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #999;">?</div>
+                </div>
+                <div style="flex: 1;">
+                  <div style="font-size: 11px; color: #8c8c8c; margin-bottom: 2px;">未识别设备</div>
+                  <div style="font-size: 9px; color: #bfbfbf;">点击添加信息</div>
+                </div>
+                <div style="flex-shrink: 0;">
+                  <button class="add-device-note" style="
+                    padding: 3px 6px;
+                    font-size: 10px;
+                    background: linear-gradient(135deg, #52c41a, #389e0d);
+                    color: white;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    box-shadow: 0 1px 3px rgba(82, 196, 26, 0.2);
+                    transition: all 0.2s ease;
+                  " data-mac="${mac}" onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 6px rgba(82, 196, 26, 0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(82, 196, 26, 0.2)';">添加</button>
+                </div>
+              </div>
             `;
           }
 
