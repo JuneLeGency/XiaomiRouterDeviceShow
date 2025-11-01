@@ -38,8 +38,62 @@ window.addEventListener('load', () => {
   findAndInjectDeviceNotes();
 });
 
-// 由于页面可能是动态加载的，我们需要定期检查
-setInterval(findAndInjectDeviceNotes, CONFIG.CONTENT_SCRIPT_INTERVAL);
+// 使用MutationObserver监听DOM变化，替代定时器机制
+const observer = new MutationObserver((mutations) => {
+  let shouldUpdate = false;
+  
+  mutations.forEach((mutation) => {
+    // 只处理childList类型的变化，忽略过于频繁的属性变化
+    if (mutation.type === 'childList') {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          const element = node as Element;
+          
+          // 更精确的检查：只关心设备列表相关的变化
+          if (element.id === 'devicesTables' || 
+              element.className.includes('device') ||
+              element.querySelector('#devicesTables') ||
+              element.querySelector('span.v')) {
+            shouldUpdate = true;
+            console.log('检测到设备列表相关DOM变化');
+          }
+        }
+      });
+    }
+  });
+  
+  if (shouldUpdate && !updatePending) {
+    updatePending = true;
+    // 使用更长的防抖延迟，避免过于频繁的更新
+    clearTimeout(updateTimeout);
+    updateTimeout = setTimeout(() => {
+      console.log('DOM变化触发设备信息更新');
+      findAndInjectDeviceNotes();
+      updatePending = false;
+    }, 500); // 增加到500ms防抖延迟
+  }
+});
+
+// 防抖timer和更新状态
+let updateTimeout: number;
+let updatePending = false;
+let lastProcessedDeviceCount = 0;
+
+// 开始观察整个document的变化
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+  attributes: true,
+  attributeFilter: ['class', 'style'] // 只观察可能影响显示的属性
+});
+
+// 页面可见性变化时也重新检查（用户切换回标签页时）
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    console.log('页面重新可见，检查设备信息');
+    setTimeout(findAndInjectDeviceNotes, 100);
+  }
+});
 
 function findAndInjectDeviceNotes() {
   // 查找小米路由器的设备列表容器
@@ -71,7 +125,15 @@ function findAndInjectDeviceNotes() {
 
 async function injectDeviceNotes() {
   try {
-    console.log('开始注入设备备注信息...');
+    // 查找当前页面的MAC地址元素，如果数量没变化就跳过
+    const currentMacElements = document.querySelectorAll('li span.v');
+    if (currentMacElements.length === lastProcessedDeviceCount && lastProcessedDeviceCount > 0) {
+      console.log(`设备数量未变化(${currentMacElements.length})，跳过重复注入`);
+      return;
+    }
+    
+    console.log(`开始注入设备备注信息... 当前设备数: ${currentMacElements.length}`);
+    lastProcessedDeviceCount = currentMacElements.length;
 
     // 从后端API获取设备备注信息
     const response = await fetch(`${CONFIG.API_HOST}/api/devices`);
