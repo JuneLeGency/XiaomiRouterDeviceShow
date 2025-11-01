@@ -1,0 +1,4110 @@
+{
+  "code": 0,
+  "bssid_24G": "50:88:11:d1:6a:af",
+  "risk_devices": [],
+  "devices": [
+    {
+      "parent": "",
+      "rx_rate": 324,
+      "wifi_quality": 1,
+      "__sort_key__": 2590,
+      "totalTX": 58364,
+      "active_apps": [],
+      "totalRX": 58909,
+      "nego_rx_rate": "324Mbps",
+      "connectionType": 2,
+      "mac": "DE:51:53:7E:97:D6",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 1716,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_^Xiaomi-14-Pro",
+      "iconUrl": "list/device_list_Xiaomi 14 Pro.png?1706780246",
+      "userSpecifyModel": "",
+      "signal": -67,
+      "events": [
+        {
+          "duration": 2590,
+          "eventID": 1,
+          "originatedTime": 1761952860,
+          "text": "5GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.183",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 7(802.11be)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 720,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_detail_Xiaomi 14 Pro.png?1706780246",
+      "online": 1,
+      "nego_tx_rate": "720Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "Xiaomi-14-Pro",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 172,
+      "wifi_quality": 1,
+      "__sort_key__": 3018,
+      "totalTX": 139026091,
+      "active_apps": [],
+      "totalRX": 1204752952,
+      "nego_rx_rate": "172Mbps",
+      "connectionType": 1,
+      "mac": "26:6A:72:01:A8:23",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 2144,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_^Xiaomi-17-Pro-Max",
+      "iconUrl": "list/device_list_^Xiaomi 17 Max Pro.png?1758858376",
+      "userSpecifyModel": "",
+      "signal": -65,
+      "events": [
+        {
+          "duration": 3018,
+          "eventID": 1,
+          "originatedTime": 1761952432,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.134",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 7(802.11be)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 258,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "Xiaomi-17-Pro-Max",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_^Xiaomi 17 Max Pro.png?1758858377",
+      "online": 1,
+      "nego_tx_rate": "258Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "Xiaomi-17-Pro-Max",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 72,
+      "totalTX": 2176945,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -47,
+      "events": [
+        {
+          "duration": 3325,
+          "eventID": 1,
+          "originatedTime": 1761952125,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "705673984",
+      "apHardware": "",
+      "ip": "192.168.31.227",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "纱帘女儿房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 3325,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1661059,
+      "nego_rx_rate": "72Mbps",
+      "mac": "D4:F0:EA:46:F1:43",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 2451,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibtF143"
+    },
+    {
+      "parent": "",
+      "rx_rate": 576,
+      "wifi_quality": 1,
+      "__sort_key__": 3546,
+      "totalTX": 248321,
+      "active_apps": [],
+      "totalRX": 461470,
+      "nego_rx_rate": "576Mbps",
+      "connectionType": 2,
+      "mac": "3A:BF:67:07:C9:42",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 2672,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_v12pro",
+      "iconUrl": "list/device_list_ v12pro.png?1643203713",
+      "userSpecifyModel": "",
+      "signal": -65,
+      "events": [
+        {
+          "duration": 3546,
+          "eventID": 1,
+          "originatedTime": 1761951904,
+          "text": "5GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.208",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 6(802.11ax)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 720,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "Xiaomi-12-Pro",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_v12pro.png?1643203713",
+      "online": 1,
+      "nego_tx_rate": "720Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "Xiaomi-12-Pro",
+      "uSpeed": 20
+    },
+    {
+      "parent": "",
+      "rx_rate": 206,
+      "wifi_quality": 1,
+      "__sort_key__": 4578,
+      "totalTX": 167508188,
+      "active_apps": [],
+      "totalRX": 803937155,
+      "nego_rx_rate": "206Mbps",
+      "connectionType": 1,
+      "mac": "92:29:AB:10:38:93",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 3704,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_^Xiaomi-15-pro",
+      "iconUrl": "list/device_list_Xiaomi-15-pro.png?1731579651",
+      "userSpecifyModel": "",
+      "signal": -56,
+      "events": [
+        {
+          "duration": 4578,
+          "eventID": 1,
+          "originatedTime": 1761950872,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.159",
+      "dSpeed": 20574,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 7(802.11be)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 229,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "Xiaomi-15-Pro",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_Xiaomi-15-pro.png?1731579651",
+      "online": 1,
+      "nego_tx_rate": "229Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "Xiaomi-15-Pro",
+      "uSpeed": 10615
+    },
+    {
+      "parent": "",
+      "rx_rate": 65,
+      "wifi_quality": 1,
+      "__sort_key__": 17375,
+      "totalTX": 9869749,
+      "active_apps": [],
+      "totalRX": 4166238,
+      "nego_rx_rate": "65Mbps",
+      "connectionType": 1,
+      "mac": "70:C9:32:52:B2:3B",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 16501,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_robot.png?1605771901",
+      "userSpecifyModel": "",
+      "signal": -54,
+      "events": [
+        {
+          "duration": 17375,
+          "eventID": 1,
+          "originatedTime": 1761938075,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.198",
+      "dSpeed": 14,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "robot",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 72,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "追觅扫地机器人",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_robot.png?1605772384",
+      "online": 1,
+      "nego_tx_rate": "72Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "dreame_vacuum_r2495",
+      "uSpeed": 21
+    },
+    {
+      "parent": "",
+      "rx_rate": 135,
+      "wifi_quality": 1,
+      "__sort_key__": 21675,
+      "totalTX": 1134393,
+      "active_apps": [],
+      "totalRX": 769844,
+      "nego_rx_rate": "135Mbps",
+      "connectionType": 6,
+      "mac": "54:EF:44:64:34:AD",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 20801,
+      "company": "xiaomi",
+      "model": "xiaomi_stereo_v2",
+      "iconUrl": "list/device_list_mistereo2.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": -56,
+      "events": [
+        {
+          "duration": 21675,
+          "eventID": 1,
+          "originatedTime": 1761933775,
+          "text": "5G Game接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "stereo",
+      "wan": 1,
+      "ip": "192.168.31.16",
+      "dSpeed": 10,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 135,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "小米智能家庭面板玄关",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_mistereo2.png?1605772443",
+      "online": 1,
+      "nego_tx_rate": "135Mbps",
+      "connectionTypes": [
+        6
+      ],
+      "originName": "MiAiSoundbox-86v1",
+      "uSpeed": 31
+    },
+    {
+      "parent": "",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 44900,
+      "totalTX": 41571097,
+      "active_apps": [],
+      "totalRX": 3548140698,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 4,
+      "mac": "04:7C:16:83:15:79",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 44026,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_computer.png?1605771958",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 44900,
+          "eventID": 1,
+          "originatedTime": 1761910550,
+          "text": "有线接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "computer",
+      "wan": 1,
+      "ip": "192.168.31.46",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "技嘉台式组装电脑",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_computer.png?1605772446",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        4
+      ],
+      "originName": "msic-pc-legency",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 408,
+      "wifi_quality": 1,
+      "__sort_key__": 45559,
+      "totalTX": 12114402,
+      "active_apps": [],
+      "totalRX": 26498293,
+      "nego_rx_rate": "408Mbps",
+      "connectionType": 2,
+      "mac": "60:3E:5F:7F:B4:CC",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 44685,
+      "company": "apple",
+      "model": "apple_computer_^macbook",
+      "iconUrl": "list/device_list_苹果电脑.png.png?1675045727",
+      "userSpecifyModel": "",
+      "signal": -64,
+      "events": [
+        {
+          "duration": 45559,
+          "eventID": 1,
+          "originatedTime": 1761909891,
+          "text": "5GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "computer",
+      "wan": 1,
+      "ip": "192.168.31.244",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 6(802.11ax)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 6,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "MacBook Pro 2023 M3",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_苹果电脑.png.png?1675045727",
+      "online": 1,
+      "nego_tx_rate": "6Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "MacBookPro-2023-ChangLan",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 720,
+      "wifi_quality": 1,
+      "__sort_key__": 149018,
+      "totalTX": 771498167,
+      "active_apps": [],
+      "totalRX": 196686133,
+      "nego_rx_rate": "720Mbps",
+      "connectionType": 2,
+      "mac": "70:C9:12:CB:CB:2E",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 148144,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_tv.png?1605771902",
+      "userSpecifyModel": "default",
+      "signal": -60,
+      "events": [
+        {
+          "duration": 149018,
+          "eventID": 1,
+          "originatedTime": 1761806432,
+          "text": "5GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.174",
+      "dSpeed": 109,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 6(802.11ax)",
+      "userSpecifyProduct": "tv",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 1080,
+      "port": "",
+      "userSpecifyCompany": "xiaomi",
+      "name": "小米电视",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_tv.png?1605772378",
+      "online": 1,
+      "nego_tx_rate": "1080Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "*",
+      "uSpeed": 1622
+    },
+    {
+      "parent": "",
+      "rx_rate": 432,
+      "wifi_quality": 1,
+      "__sort_key__": 211370,
+      "totalTX": 32749616800,
+      "active_apps": [],
+      "totalRX": 71371551558,
+      "nego_rx_rate": "432Mbps",
+      "connectionType": 2,
+      "mac": "E2:6E:78:68:26:FC",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 210496,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_details_Mac mini.png.png?1675045756",
+      "userSpecifyModel": "apple_computer_^Mac mini",
+      "signal": -69,
+      "events": [
+        {
+          "duration": 211370,
+          "eventID": 1,
+          "originatedTime": 1761744080,
+          "text": "5GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.199",
+      "dSpeed": 210334,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 6(802.11ax)",
+      "userSpecifyProduct": "computer",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 960,
+      "port": "",
+      "userSpecifyCompany": "apple",
+      "name": "Mac mini m4",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_Mac mini.png.png?1675045756",
+      "online": 1,
+      "nego_tx_rate": "960Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "Mac",
+      "uSpeed": 75020
+    },
+    {
+      "parent": "",
+      "rx_rate": 58,
+      "totalTX": 1516796,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_mi.png?1605771961",
+      "userSpecifyModel": "",
+      "signal": -57,
+      "events": [
+        {
+          "duration": 213948,
+          "eventID": 1,
+          "originatedTime": 1761741502,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "746948142",
+      "apHardware": "",
+      "ip": "192.168.31.254",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "米家智能隐形晾衣机",
+      "bigIconUrl": "detail_v2/device_details_mi.png?1605772444",
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 213948,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1182971,
+      "nego_rx_rate": "58Mbps",
+      "mac": "B8:50:D8:EE:35:C7",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730965626934FTCLNGdY.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=IpffrgcTc0/h9A3B5I9PtrgguQc=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 213074,
+      "company": "xiaomi",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/d15a6dc52b6276a88cbeac5ca546bbc7_1699600728412.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=OF5NXXZxEI5s6nJuWnXdj8huoDY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "晾衣架",
+        "company": "米家",
+        "model": "米家智能隐形晾衣机"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "xiaomi-airer-lyj3xs_mibt35C7"
+    },
+    {
+      "parent": "",
+      "rx_rate": 39,
+      "totalTX": 14246213,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -67,
+      "events": [
+        {
+          "duration": 238283,
+          "eventID": 1,
+          "originatedTime": 1761717167,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "734234733",
+      "apHardware": "",
+      "ip": "192.168.31.94",
+      "dSpeed": 21,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 72,
+      "port": "",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "吸顶灯女儿房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "72Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 74,
+      "wifi_quality": 1,
+      "__sort_key__": 238283,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 5315823,
+      "nego_rx_rate": "39Mbps",
+      "mac": "B8:50:D8:6C:88:DE",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17287131867880MW0akIF.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=RfX7Tu3gXohgQwzPXzE3ymuLGjA=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 237409,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/28ea213c89945a11db218a4ebef7a645_1694761703671.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Sb7yvMbkk58lKw8gELxPFEkkHVY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "其他品牌",
+        "model": "智能冷暖吸顶灯A2"
+      },
+      "portspeed": "",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "aimore-light-230915_mibt88DE"
+    },
+    {
+      "parent": "",
+      "rx_rate": 72,
+      "totalTX": 2069157,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -45,
+      "events": [
+        {
+          "duration": 289327,
+          "eventID": 1,
+          "originatedTime": 1761666123,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "705674148",
+      "apHardware": "",
+      "ip": "192.168.31.140",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "窗帘客厅",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 289327,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1501119,
+      "nego_rx_rate": "72Mbps",
+      "mac": "D4:F0:EA:46:F1:E7",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 288453,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibtF1E7"
+    },
+    {
+      "parent": "",
+      "rx_rate": 1,
+      "wifi_quality": 1,
+      "__sort_key__": 291810,
+      "totalTX": 1646913,
+      "active_apps": [],
+      "totalRX": 1171178,
+      "nego_rx_rate": "1Mbps",
+      "connectionType": 1,
+      "mac": "54:08:53:67:D4:29",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290936,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_haier.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": -44,
+      "events": [
+        {
+          "duration": 291810,
+          "eventID": 1,
+          "originatedTime": 1761663640,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.181",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "haier",
+      "name": "海尔净水器",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_haier.png?1605772445",
+      "online": 1,
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "uplus-haier-2204-d429-v6-sapbz",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 72,
+      "wifi_quality": 1,
+      "__sort_key__": 291811,
+      "totalTX": 0,
+      "active_apps": [],
+      "totalRX": 0,
+      "nego_rx_rate": "72Mbps",
+      "connectionType": 1,
+      "mac": "EC:64:C9:84:C0:B0",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290937,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_gateway.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": -47,
+      "events": [
+        {
+          "duration": 291811,
+          "eventID": 1,
+          "originatedTime": 1761663639,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.197",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "gateway",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "0Mbps",
+      "tx_rate": 1,
+      "port": "LAN0",
+      "userSpecifyCompany": "default",
+      "name": "中宏空调网关VRF",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_gateway.png?1605772445",
+      "online": 1,
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "Iotnode",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 104,
+      "wifi_quality": 1,
+      "__sort_key__": 291811,
+      "totalTX": 36414935,
+      "active_apps": [],
+      "totalRX": 13211594,
+      "nego_rx_rate": "104Mbps",
+      "connectionType": 1,
+      "mac": "E0:03:6B:CF:2D:90",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290937,
+      "company": "xiaomi",
+      "model": "xiaomi_router_rc01",
+      "iconUrl": "list/device_list_samsungtv.png?1605771901",
+      "userSpecifyModel": "",
+      "signal": -60,
+      "events": [
+        {
+          "duration": 291811,
+          "eventID": 1,
+          "originatedTime": 1761663639,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "router",
+      "wan": 1,
+      "ip": "192.168.31.206",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "tv",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 144,
+      "port": "LAN5",
+      "userSpecifyCompany": "samsung",
+      "name": "显示器 三星",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_samsungtv.png?1605772384",
+      "online": 1,
+      "nego_tx_rate": "144Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "MiWiFi-RC01-srv",
+      "uSpeed": 1223
+    },
+    {
+      "parent": "",
+      "rx_rate": 48,
+      "wifi_quality": 1,
+      "__sort_key__": 291811,
+      "totalTX": 8435482,
+      "active_apps": [],
+      "totalRX": 130609131,
+      "nego_rx_rate": "48Mbps",
+      "connectionType": 1,
+      "mac": "54:B8:74:44:18:1C",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290937,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_midea.png?1605771953",
+      "userSpecifyModel": "",
+      "signal": -51,
+      "events": [
+        {
+          "duration": 291811,
+          "eventID": 1,
+          "originatedTime": 1761663639,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.122",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 52,
+      "port": "LAN5",
+      "userSpecifyCompany": "midea",
+      "name": "美的干衣机",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_midea.png?1605772444",
+      "online": 1,
+      "nego_tx_rate": "52Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "midea_dc_0929",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 54,
+      "wifi_quality": 1,
+      "__sort_key__": 291811,
+      "totalTX": 2087120,
+      "active_apps": [],
+      "totalRX": 1352228,
+      "nego_rx_rate": "54Mbps",
+      "connectionType": 1,
+      "mac": "B8:0B:DA:D0:91:D8",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290937,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_midea.png?1605771953",
+      "userSpecifyModel": "",
+      "signal": -53,
+      "events": [
+        {
+          "duration": 291811,
+          "eventID": 1,
+          "originatedTime": 1761663639,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.14",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 1,
+      "port": "",
+      "userSpecifyCompany": "midea",
+      "name": "美的洗衣机",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_midea.png?1605772444",
+      "online": 1,
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "midea_db_3854",
+      "uSpeed": 0
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291812,
+      "totalTX": 100892496,
+      "active_apps": [],
+      "totalRX": 8589312,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 6,
+      "mac": "78:DF:72:46:45:C7",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290938,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_camera.png?1605771961",
+      "userSpecifyModel": "default",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291812,
+          "eventID": 1,
+          "originatedTime": 1761663638,
+          "text": "5G Game接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.99",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "camera",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "xiaomi",
+      "name": "小米智能摄像机2AI增强版",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_camera.png?1605772446",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        6
+      ],
+      "originName": "chuangmi_camera_051a01",
+      "uSpeed": 0
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 112103099,
+      "connectionType": 6,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291813,
+          "eventID": 1,
+          "originatedTime": 1761663637,
+          "text": "5G Game接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "1076300118",
+      "apHardware": "",
+      "ip": "192.168.31.69",
+      "dSpeed": 140,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小米摄像机Pro 3云台版",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        6
+      ],
+      "uSpeed": 126,
+      "wifi_quality": 1,
+      "__sort_key__": 291813,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 9525201,
+      "nego_rx_rate": "0Mbps",
+      "mac": "78:DF:72:2E:59:3B",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1725521202555Aez98mqW.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=p41VvMkKP8M6DVqDTHlYpE2ojrE=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 290939,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/c69e8d20e63d6f1d3d58718047d8884b_1681179822390.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=41e3iXEKJMiKIFWZBTqT/YusM9E=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "摄像机",
+        "company": "小米",
+        "model": "小米智能摄像机3 Pro 云台版"
+      },
+      "portspeed": "",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "chuangmi_camera_061a01"
+    },
+    {
+      "parent": "",
+      "rx_rate": 1,
+      "wifi_quality": 1,
+      "__sort_key__": 291815,
+      "totalTX": 1616288,
+      "active_apps": [],
+      "totalRX": 1169219,
+      "nego_rx_rate": "1Mbps",
+      "connectionType": 1,
+      "mac": "24:E8:CE:82:9E:D3",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290941,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_haier.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": -38,
+      "events": [
+        {
+          "duration": 291815,
+          "eventID": 1,
+          "originatedTime": 1761663635,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.175",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "haier",
+      "name": "海尔洗碗机",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_haier.png?1605772445",
+      "online": 1,
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "uplus-haier-0a02-9ed3-v6-sapbz",
+      "uSpeed": 0
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 1746970,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291823,
+          "eventID": 1,
+          "originatedTime": 1761663627,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "781422597",
+      "apHardware": "",
+      "ip": "192.168.31.195",
+      "dSpeed": 85,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "米家智能插座3 3d打印机",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 41,
+      "wifi_quality": 1,
+      "__sort_key__": 291823,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1345876,
+      "nego_rx_rate": "0Mbps",
+      "mac": "8C:D0:B2:CD:19:A6",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1728527430874L8Aeg5ZQ.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Q7qCIckDgRdCNGXfuyrgMEtD4Sk=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 290949,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/developer_1663726295563dvOSQGQd.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=axduCmD3T3xCCUG6GsEGSVjz1W4=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "插座／插排",
+        "company": "米家",
+        "model": "米家智能插座3"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "cuco-plug-v3_mibt19A6"
+    },
+    {
+      "parent": "",
+      "rx_rate": 72,
+      "totalTX": 1862232,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -49,
+      "events": [
+        {
+          "duration": 291842,
+          "eventID": 1,
+          "originatedTime": 1761663608,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "649706431",
+      "apHardware": "",
+      "ip": "192.168.31.9",
+      "dSpeed": 85,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 72,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "窗帘阳台",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "72Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 39,
+      "wifi_quality": 1,
+      "__sort_key__": 291842,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1455618,
+      "nego_rx_rate": "72Mbps",
+      "mac": "64:9E:31:13:6D:44",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 290968,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt6D44"
+    },
+    {
+      "parent": "",
+      "rx_rate": 13,
+      "totalTX": 1422330,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -63,
+      "events": [
+        {
+          "duration": 291861,
+          "eventID": 1,
+          "originatedTime": 1761663589,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "673033187",
+      "apHardware": "",
+      "ip": "192.168.31.45",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 1,
+      "port": "",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "客厅的吸顶灯",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291861,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1103479,
+      "nego_rx_rate": "13Mbps",
+      "mac": "64:9E:31:B1:DE:7D",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1729074217894exChptrv.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=6rkEBSyZdWB3itylJHjJcdiIPi8=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 290987,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/191c054c9c8b1a61b9cf35e18c46a07f_1667209542888.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=PA88yZuJjpD6eiKxzijaffdoKKc=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "其他品牌",
+        "model": "情景WiFi色温灯C系列"
+      },
+      "portspeed": "",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "lemesh-light-wy02_mibtDE7D"
+    },
+    {
+      "parent": "",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291871,
+      "totalTX": 6171929,
+      "active_apps": [],
+      "totalRX": 7874844,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 4,
+      "mac": "2C:CF:67:29:A8:0F",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290997,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291871,
+          "eventID": 1,
+          "originatedTime": 1761663579,
+          "text": "有线接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.51",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "树莓派5",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        4
+      ],
+      "originName": "rasp5",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 65,
+      "totalTX": 39929524,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -49,
+      "events": [
+        {
+          "duration": 291871,
+          "eventID": 1,
+          "originatedTime": 1761663579,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "1079505072",
+      "apHardware": "",
+      "ip": "192.168.31.182",
+      "dSpeed": 81,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 72,
+      "port": "",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小米智能家庭屏10",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "72Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 34,
+      "wifi_quality": 1,
+      "__sort_key__": 291871,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 211656323,
+      "nego_rx_rate": "65Mbps",
+      "mac": "4C:C6:4C:D2:06:EE",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17321585818728yXUQpXp.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=tDLOS9GRi5+G5Wz4z+QHrZft+Q8=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 290997,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17321585727080OgQIr9O.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Kiar2B7TH2/fYTmufEsEM/8qgdU=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "音箱",
+        "company": "小米",
+        "model": "Xiaomi 智能家庭屏 10"
+      },
+      "portspeed": "",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "XiaoAiTongXueX10A"
+    },
+    {
+      "parent": "",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291871,
+      "totalTX": 9441035,
+      "active_apps": [],
+      "totalRX": 6522656,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 4,
+      "mac": "F8:24:41:2B:14:4F",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 290997,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_gateway.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291871,
+          "eventID": 1,
+          "originatedTime": 1761663579,
+          "text": "有线接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.226",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "gateway",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "100Mbps",
+      "tx_rate": 0,
+      "port": "LAN4",
+      "userSpecifyCompany": "yeelight",
+      "name": "易来网关",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_gateway.png?1605772445",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        4
+      ],
+      "originName": "yeelight-gw02_2B144F",
+      "uSpeed": 0
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 1828912,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "753531591",
+      "apHardware": "",
+      "ip": "192.168.31.17",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "米家床头灯二代主卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1477914,
+      "nego_rx_rate": "0Mbps",
+      "mac": "8C:D0:B2:42:40:18",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1729768417877Tah5fohK.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=BiTeGs9C2JdC/iY0CBPG/bztCEQ=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679041171520qIwsqevs.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=HuX3MgHhsJv7vFA8JD1DzFh76LQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "米家",
+        "model": "米家床头灯2代"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "yeelink-light-bslamp2_mibt4018"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2164618,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "623247344",
+      "apHardware": "",
+      "ip": "192.168.31.68",
+      "dSpeed": 103,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "布帘女儿房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 156,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1680619,
+      "nego_rx_rate": "0Mbps",
+      "mac": "DC:ED:83:5B:7C:1D",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt7C1D"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2210389,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "705677071",
+      "apHardware": "",
+      "ip": "192.168.31.179",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "纱帘主卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1725404,
+      "nego_rx_rate": "0Mbps",
+      "mac": "D4:F0:EA:46:FD:52",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibtFD52"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 18541402,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "800740567",
+      "apHardware": "",
+      "ip": "192.168.31.21",
+      "dSpeed": 137,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小爱智能音箱play 女儿房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 138,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 17846754,
+      "nego_rx_rate": "0Mbps",
+      "mac": "4C:C6:4C:92:FD:C0",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730885273542kjFeK48y.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=MxqE9YHAFcieXGCtuhqzXaaNggc=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679042135854WxWVRbKd.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=GxmRSZLvnnOLi0HKe/VPDapRvro=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "音箱",
+        "company": "小米",
+        "model": "小爱音箱Play"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 1737342,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "746951124",
+      "apHardware": "",
+      "ip": "192.168.31.102",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "阳台智能晾衣机北侧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1337579,
+      "nego_rx_rate": "0Mbps",
+      "mac": "B8:50:D8:EE:41:6D",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730965626934FTCLNGdY.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=IpffrgcTc0/h9A3B5I9PtrgguQc=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/d15a6dc52b6276a88cbeac5ca546bbc7_1699600728412.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=OF5NXXZxEI5s6nJuWnXdj8huoDY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "晾衣架",
+        "company": "米家",
+        "model": "米家智能隐形晾衣机"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2169753,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "649709400",
+      "apHardware": "",
+      "ip": "192.168.31.252",
+      "dSpeed": 90,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "布帘书房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 46,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1692251,
+      "nego_rx_rate": "0Mbps",
+      "mac": "64:9E:31:13:78:DD",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt78DD"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2617641,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "657128592",
+      "apHardware": "",
+      "ip": "192.168.31.88",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "米家电风扇主卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1548755,
+      "nego_rx_rate": "0Mbps",
+      "mac": "64:9E:31:29:20:94",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17289008439228LbVsH9c.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=IMnkjTMhJE3u5cQi0yb5N+zTxKw=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/bf50d38b177a034236ed2409c76280ee_1643013604987.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=x6CrsbfeXBeQbt+cwqLWzN//qoA=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "风扇",
+        "company": "米家",
+        "model": "米家智能直流变频循环扇 落地式"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 13889703,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "733890679",
+      "apHardware": "",
+      "ip": "192.168.31.5",
+      "dSpeed": 25,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "智能冷暖吸顶灯A2 北次卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 51,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 5379449,
+      "nego_rx_rate": "0Mbps",
+      "mac": "B8:50:D8:67:48:E8",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17287131867880MW0akIF.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=RfX7Tu3gXohgQwzPXzE3ymuLGjA=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/28ea213c89945a11db218a4ebef7a645_1694761703671.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Sb7yvMbkk58lKw8gELxPFEkkHVY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "其他品牌",
+        "model": "智能冷暖吸顶灯A2"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 13901291,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "733890794",
+      "apHardware": "",
+      "ip": "192.168.31.209",
+      "dSpeed": 87,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "吸顶灯书房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 41,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 5469326,
+      "nego_rx_rate": "0Mbps",
+      "mac": "B8:50:D8:67:49:5B",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17287131867880MW0akIF.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=RfX7Tu3gXohgQwzPXzE3ymuLGjA=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/28ea213c89945a11db218a4ebef7a645_1694761703671.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Sb7yvMbkk58lKw8gELxPFEkkHVY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "其他品牌",
+        "model": "智能冷暖吸顶灯A2"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2198564,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "649710738",
+      "apHardware": "",
+      "ip": "192.168.31.147",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "纱帘书房",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1719561,
+      "nego_rx_rate": "0Mbps",
+      "mac": "64:9E:31:13:7E:17",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt7E17"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2168800,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "623247299",
+      "apHardware": "",
+      "ip": "192.168.31.180",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "布帘北次卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1655018,
+      "nego_rx_rate": "0Mbps",
+      "mac": "DC:ED:83:5B:7B:F0",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt7BF0"
+    },
+    {
+      "parent": "",
+      "rx_rate": 65,
+      "totalTX": 9680120,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_micamera.png?1605771953",
+      "userSpecifyModel": "",
+      "signal": -47,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "yunyi.BW2GBH83EBWLDK8C111A",
+      "apHardware": "",
+      "ip": "192.168.31.124",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 72,
+      "port": "",
+      "userSpecifyCompany": "xiaoyi",
+      "parent_id": "",
+      "name": "女儿房的小蚁摄像机",
+      "bigIconUrl": "detail_v2/device_details_micamera.png?1605772444",
+      "nego_tx_rate": "72Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 4496166,
+      "nego_rx_rate": "65Mbps",
+      "mac": "E8:AB:FA:2B:51:B5",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1732243047938hTWfDGml.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=7EHmEEEcyZU6q/kSimbu5834bLM=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "xiaoyi",
+      "owner": "",
+      "product": "camera",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "camera",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1678873237241YxPQpDrs.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=ThJ+2oyJwB3WTB1DG2/ZAYFYCIM=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "摄像机",
+        "company": "小蚁",
+        "model": "小蚁智能摄像机"
+      },
+      "portspeed": "",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "ANTSCAM-0000-BW2GBH83EBWLDK8C111"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "totalTX": 1402196,
+      "active_apps": [],
+      "totalRX": 1040317,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 1,
+      "mac": "64:C6:D2:58:01:8F",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 291001,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_epsonprinter.png?1605771958",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.245",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "printer",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 0,
+      "port": "",
+      "userSpecifyCompany": "epson",
+      "name": "爱普生打印机",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_epsonprinter.png?1605772446",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "EPSON58018F",
+      "uSpeed": 0
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2177404,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "623247039",
+      "apHardware": "",
+      "ip": "192.168.31.78",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "纱帘北次卧",
+      "bigIconUrl": "device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1692774,
+      "nego_rx_rate": "0Mbps",
+      "mac": "DC:ED:83:5B:7A:EC",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt7AEC"
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 17368366,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "800740610",
+      "apHardware": "",
+      "ip": "192.168.31.65",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小爱智能音箱play北次卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 15,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 10605531,
+      "nego_rx_rate": "0Mbps",
+      "mac": "4C:C6:4C:92:FD:EB",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730885273542kjFeK48y.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=MxqE9YHAFcieXGCtuhqzXaaNggc=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679042135854WxWVRbKd.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=GxmRSZLvnnOLi0HKe/VPDapRvro=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "音箱",
+        "company": "小米",
+        "model": "小爱音箱Play"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 16505417,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "733324940",
+      "apHardware": "",
+      "ip": "192.168.31.25",
+      "dSpeed": 39,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "主卧的吸顶灯",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 80,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 6888445,
+      "nego_rx_rate": "0Mbps",
+      "mac": "B8:50:D8:5E:A6:FD",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_17287131867880MW0akIF.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=RfX7Tu3gXohgQwzPXzE3ymuLGjA=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/28ea213c89945a11db218a4ebef7a645_1694761703671.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=Sb7yvMbkk58lKw8gELxPFEkkHVY=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "灯",
+        "company": "其他品牌",
+        "model": "智能冷暖吸顶灯A2"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 16966021,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "800740623",
+      "apHardware": "",
+      "ip": "192.168.31.87",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小爱智能音箱play主卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 15,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 11233214,
+      "nego_rx_rate": "0Mbps",
+      "mac": "4C:C6:4C:92:FD:F8",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730885273542kjFeK48y.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=MxqE9YHAFcieXGCtuhqzXaaNggc=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679042135854WxWVRbKd.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=GxmRSZLvnnOLi0HKe/VPDapRvro=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "音箱",
+        "company": "小米",
+        "model": "小爱音箱Play"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": ""
+    },
+    {
+      "parent": "64:64:4A:85:D7:77",
+      "rx_rate": 0,
+      "totalTX": 2178985,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "623247661",
+      "apHardware": "",
+      "ip": "192.168.31.228",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "布帘主卧",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 1704303,
+      "nego_rx_rate": "0Mbps",
+      "mac": "DC:ED:83:5B:7D:5A",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1730891310951aCszOQb4.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=68VORRFWL45Idx7rfpcj0CI9gCg=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291001,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-product-center/df14d778706799d6aebdd48cd627480f_1659314903420.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=vUdJ7Lx+rwKn9a5Yv1/zisTNbAQ=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "窗帘电机",
+        "company": "杜亚",
+        "model": "杜亚智能窗帘M7"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "dooya-curtain-m7_mibt7D5A"
+    },
+    {
+      "parent": "",
+      "rx_rate": 72,
+      "wifi_quality": 1,
+      "__sort_key__": 291875,
+      "totalTX": 10085903,
+      "active_apps": [],
+      "totalRX": 3294984,
+      "nego_rx_rate": "72Mbps",
+      "connectionType": 1,
+      "mac": "D8:E2:3F:E3:74:4A",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 291001,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_haier.png?1605771957",
+      "userSpecifyModel": "",
+      "signal": -39,
+      "events": [
+        {
+          "duration": 291875,
+          "eventID": 1,
+          "originatedTime": 1761663575,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.70",
+      "dSpeed": 0,
+      "userSpecified": true,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 57,
+      "port": "LAN5",
+      "userSpecifyCompany": "haier",
+      "name": "海尔卡萨帝冰箱",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_haier.png?1605772445",
+      "online": 1,
+      "nego_tx_rate": "57Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "uplus-haier-0121-744a-v6-sapbz",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291887,
+      "totalTX": 201866548,
+      "active_apps": [],
+      "totalRX": 1252823128,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 4,
+      "mac": "8C:BE:BE:24:9F:5F",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 291013,
+      "company": "xiaomi",
+      "model": "xiaomi_router_r1d",
+      "iconUrl": "list/device_list_r1d.png?1605771902",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291887,
+          "eventID": 1,
+          "originatedTime": 1761663563,
+          "text": "有线接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "router",
+      "wan": 1,
+      "ip": "192.168.31.119",
+      "dSpeed": 13,
+      "userSpecified": false,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "小米路由器",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_r1d.png?1605772385",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        4
+      ],
+      "originName": "MiWiFi-R1D",
+      "uSpeed": 49
+    },
+    {
+      "parent": "",
+      "rx_rate": 0,
+      "wifi_quality": 1,
+      "__sort_key__": 291887,
+      "totalTX": 10797928,
+      "active_apps": [],
+      "totalRX": 92546138,
+      "nego_rx_rate": "0Mbps",
+      "connectionType": 4,
+      "mac": "78:DF:72:76:26:90",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 291013,
+      "company": "xiaomi",
+      "model": "xiaomi_gateway_^xiaomi-gateway-hub",
+      "iconUrl": "list/device_list_Xiaomi智能中枢网关.png?1671679843",
+      "userSpecifyModel": "",
+      "signal": 0,
+      "events": [
+        {
+          "duration": 291887,
+          "eventID": 1,
+          "originatedTime": 1761663563,
+          "text": "有线接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "gateway",
+      "wan": 1,
+      "ip": "192.168.31.215",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 0,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "小米智能中枢网关女儿房",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_Xiaomi智能中枢网关.png?1671679843",
+      "online": 1,
+      "nego_tx_rate": "0Mbps",
+      "connectionTypes": [
+        4
+      ],
+      "originName": "xiaomi-gateway-hub1",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 65,
+      "totalTX": 14348545,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "lan": 1,
+      "is_ap": false,
+      "model": "xiaomi_aimini",
+      "iconUrl": "list/device_list_aimini.png?1605771959",
+      "userSpecifyModel": "",
+      "signal": -56,
+      "events": [
+        {
+          "duration": 291887,
+          "eventID": 1,
+          "originatedTime": 1761663563,
+          "text": "2.4GHz接入",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "88672999",
+      "apHardware": "",
+      "ip": "192.168.31.251",
+      "dSpeed": 10,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 57,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "小爱音箱mini 书房",
+      "bigIconUrl": "detail_v2/device_details_aimini.png?1605772446",
+      "nego_tx_rate": "57Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 31,
+      "wifi_quality": 1,
+      "__sort_key__": 291887,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 25278968,
+      "nego_rx_rate": "65Mbps",
+      "mac": "7C:49:EB:67:00:52",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679069105765RqWU9ONy.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=IyIu2NBE1np/f+8DuheRn6RNVjU=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 291013,
+      "company": "xiaomi",
+      "owner": "",
+      "product": "stereo",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679040915408LPWx4mY8.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=0LjiH9ZrdHuPuh1hliyOU2WESPg=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "音箱",
+        "company": "小米",
+        "model": "小爱音箱mini"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 1,
+      "originName": "MiAiSoundbox-LX01"
+    },
+    {
+      "parent": "",
+      "rx_rate": 39,
+      "totalTX": 2336940,
+      "connectionType": 1,
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "lan": 1,
+      "is_ap": false,
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -52,
+      "events": [
+        {
+          "duration": 1183,
+          "eventID": 0,
+          "originatedTime": 1761954266,
+          "text": "离线",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "miot_id": "1079477188",
+      "apHardware": "",
+      "ip": "192.168.31.111",
+      "dSpeed": 29,
+      "userSpecified": false,
+      "push": 0,
+      "show_mode": 1,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "tx_rate": 1,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "parent_id": "",
+      "name": "沐宸院入户门猫眼",
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "nego_tx_rate": "1Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "uSpeed": 63,
+      "wifi_quality": 1,
+      "__sort_key__": 1183,
+      "miot_user_id": 83973671,
+      "active_apps": [],
+      "totalRX": 109704,
+      "nego_rx_rate": "39Mbps",
+      "mac": "DC:ED:83:AB:31:90",
+      "neg168": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1732253921102wv4tgRR8.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=TlEa5ML2aMj4RzAZHOt7Acxl4ZM=",
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "onlineTime": 357,
+      "company": "",
+      "owner": "",
+      "product": "",
+      "wan": 1,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "neg480": "https://cdn.cnbj1.fds.api.mi-img.com/iotweb-user-center/developer_1679050153558TSZHa0cf.png?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=LHgBkwJuh1S8kGejKM15ZPr7U2g=",
+      "is_miot_device": true,
+      "miotData": {
+        "product": "可视门铃",
+        "company": "小米",
+        "model": "小米智能猫眼1S"
+      },
+      "portspeed": "2500Mbps",
+      "gameFlag": 0,
+      "online": 0,
+      "originName": "loock-cateye-v06_miap3190"
+    },
+    {
+      "parent": "",
+      "rx_rate": 288,
+      "wifi_quality": 1,
+      "__sort_key__": 2283,
+      "totalTX": 597628,
+      "active_apps": [],
+      "totalRX": 1133660,
+      "nego_rx_rate": "288Mbps",
+      "connectionType": 6,
+      "mac": "32:4D:84:D4:F1:29",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 2171,
+      "company": "oppo",
+      "model": "",
+      "iconUrl": "list/device_list_oppophone.png?1605771902",
+      "userSpecifyModel": "",
+      "signal": -67,
+      "events": [
+        {
+          "duration": 2283,
+          "eventID": 0,
+          "originatedTime": 1761953166,
+          "text": "离线",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.32",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 6(802.11ax)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 1297,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "OPPO-Find-N",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_oppophone.png?1605772385",
+      "online": 0,
+      "nego_tx_rate": "1297Mbps",
+      "connectionTypes": [
+        6
+      ],
+      "originName": "OPPO-Find-N",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 137,
+      "wifi_quality": 1,
+      "__sort_key__": 3029,
+      "totalTX": 58136,
+      "active_apps": [],
+      "totalRX": 331666,
+      "nego_rx_rate": "137Mbps",
+      "connectionType": 2,
+      "mac": "C2:E7:21:53:FF:C0",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 259,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_^Xiaomi-17-Pro-Max",
+      "iconUrl": "list/device_list_^Xiaomi 17 Max Pro.png?1758858376",
+      "userSpecifyModel": "",
+      "signal": -72,
+      "events": [
+        {
+          "duration": 3029,
+          "eventID": 0,
+          "originatedTime": 1761952420,
+          "text": "离线",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.133",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 7(802.11be)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 432,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_^Xiaomi 17 Max Pro.png?1758858377",
+      "online": 0,
+      "nego_tx_rate": "432Mbps",
+      "connectionTypes": [
+        2
+      ],
+      "originName": "Xiaomi-17-Pro-Max",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 26,
+      "wifi_quality": 1,
+      "__sort_key__": 5539,
+      "totalTX": 1372,
+      "active_apps": [],
+      "totalRX": 998,
+      "nego_rx_rate": "26Mbps",
+      "connectionType": 1,
+      "mac": "74:D8:73:59:83:F3",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": true,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 32,
+      "company": "",
+      "model": "",
+      "iconUrl": "list/device_list_default.png",
+      "userSpecifyModel": "",
+      "signal": -67,
+      "events": [
+        {
+          "duration": 5539,
+          "eventID": 0,
+          "originatedTime": 1761949911,
+          "text": "离线",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "",
+      "wan": 1,
+      "ip": "192.168.31.232",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 4(802.11n)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "",
+      "tx_rate": 65,
+      "port": "",
+      "userSpecifyCompany": "",
+      "name": "XTC_Q1A",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_default.png",
+      "online": 0,
+      "nego_tx_rate": "65Mbps",
+      "connectionTypes": [
+        1
+      ],
+      "originName": "XTC_Q1A",
+      "uSpeed": 0
+    },
+    {
+      "parent": "",
+      "rx_rate": 6,
+      "wifi_quality": 1,
+      "__sort_key__": 192422,
+      "totalTX": 36890280,
+      "active_apps": [],
+      "totalRX": 14854098,
+      "nego_rx_rate": "6Mbps",
+      "connectionType": 6,
+      "mac": "62:CA:BA:23:2F:1B",
+      "multband": -1,
+      "urlfilter": {
+        "mode": "none",
+        "count": 0
+      },
+      "name_set": false,
+      "pcontrol": {
+        "total": 0,
+        "enabled": 0
+      },
+      "lan": 1,
+      "is_ap": false,
+      "onlineTime": 10303,
+      "company": "xiaomi",
+      "model": "xiaomi_phone_^Xiaomi-17-Pro-Max",
+      "iconUrl": "list/device_list_^Xiaomi 17 Max Pro.png?1758858376",
+      "userSpecifyModel": "",
+      "signal": -64,
+      "events": [
+        {
+          "duration": 192422,
+          "eventID": 0,
+          "originatedTime": 1761763028,
+          "text": "离线",
+          "textColor": "",
+          "timeDisplay": 1
+        }
+      ],
+      "owner": "",
+      "apHardware": "",
+      "product": "phone",
+      "wan": 1,
+      "ip": "192.168.31.20",
+      "dSpeed": 0,
+      "userSpecified": false,
+      "wifiprotocol": "Wi-Fi 7(802.11be)",
+      "userSpecifyProduct": "",
+      "push": 0,
+      "netacctl": {
+        "mode": "none",
+        "enable": 1
+      },
+      "portspeed": "2500Mbps",
+      "tx_rate": 6,
+      "port": "LAN5",
+      "userSpecifyCompany": "",
+      "name": "",
+      "gameFlag": 0,
+      "bigIconUrl": "detail_v2/device_details_^Xiaomi 17 Max Pro.png?1758858377",
+      "online": 0,
+      "nego_tx_rate": "6Mbps",
+      "connectionTypes": [
+        6
+      ],
+      "originName": "Xiaomi-17-Pro-Max",
+      "uSpeed": 0
+    }
+  ],
+  "root_rssi": 0,
+  "bssid_5G": "50:88:11:d1:6a:b0",
+  "root_ssid": "",
+  "ssid_24G": "MiOfLee",
+  "root_wifi_quality": 1,
+  "storage_devices": [],
+  "wanRX": 0,
+  "guest_wifi_requests": [],
+  "wanTX": 0,
+  "ssid_5G": "MiOfLee_5G",
+  "bssid_lan": "50:88:11:D1:6A:AD",
+  "qos_info": {
+    "guest": {
+      "DOWN": 0,
+      "percent_up": 0.6,
+      "UP": 0,
+      "percent": 0.6
+    },
+    "band": {
+      "download": 0,
+      "upload": 0
+    },
+    "status": {
+      "mode": 0,
+      "on": 0
+    }
+  }
+}

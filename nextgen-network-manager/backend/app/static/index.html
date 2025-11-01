@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设备管理后台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-network-wired"></i> 设备管理后台</h1>
+            <p>小米路由器设备备注管理系统</p>
+        </header>
+
+        <main>
+            <!-- 设备列表 -->
+            <section class="device-list-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> 设备列表</h2>
+                    <button id="addDeviceBtn" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> 添加设备
+                    </button>
+                </div>
+
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索设备...">
+                    <select id="filterCategory">
+                        <option value="">所有类别</option>
+                        <option value="手机">手机</option>
+                        <option value="电脑">电脑</option>
+                        <option value="智能家居">智能家居</option>
+                        <option value="网络设备">网络设备</option>
+                        <option value="娱乐设备">娱乐设备</option>
+                    </select>
+                </div>
+
+                <div class="table-container">
+                    <table class="device-table">
+                        <thead>
+                            <tr>
+                                <th>图标</th>
+                                <th>MAC地址</th>
+                                <th>备注名称</th>
+                                <th>品牌</th>
+                                <th>类别</th>
+                                <th>描述</th>
+                                <th>创建时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="deviceTableBody">
+                            <!-- 设备数据将通过JavaScript动态加载 -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination">
+                    <button id="prevPage" class="btn btn-secondary">上一页</button>
+                    <span id="pageInfo">第 1 页，共 1 页</span>
+                    <button id="nextPage" class="btn btn-secondary">下一页</button>
+                </div>
+            </section>
+
+            <!-- 设备表单模态框 -->
+            <div id="deviceModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 id="modalTitle">添加设备</h3>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <form id="deviceForm">
+                            <input type="hidden" id="deviceId">
+
+                            <div class="form-group">
+                                <label for="macAddress">MAC地址 *</label>
+                                <input type="text" id="macAddress" required placeholder="例如: AA:BB:CC:DD:EE:FF">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="note">备注名称</label>
+                                <input type="text" id="note" placeholder="例如: 我的手机">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="brand">品牌</label>
+                                <input type="text" id="brand" placeholder="例如: Apple, Samsung">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="category">类别</label>
+                                <div style="display: flex; gap: 10px;">
+                                    <select id="category" style="flex: 1;">
+                                        <option value="">请选择类别</option>
+                                        <option value="手机">手机</option>
+                                        <option value="电脑">电脑</option>
+                                        <option value="平板">平板</option>
+                                        <option value="智能家居">智能家居</option>
+                                        <option value="网络设备">网络设备</option>
+                                        <option value="娱乐设备">娱乐设备</option>
+                                        <option value="其他">其他</option>
+                                    </select>
+                                    <button type="button" class="btn btn-secondary" onclick="addNewCategory()" style="white-space: nowrap;">
+                                        <i class="fas fa-plus"></i> 添加类别
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="iconUrl">图标URL</label>
+                                <input type="text" id="iconUrl" placeholder="图标文件URL或图标字体类名">
+                                <div class="icon-preview" id="iconPreview"></div>
+                                <div class="icon-selector">
+                                    <label>或选择常用图标:</label>
+                                    <div class="icon-options">
+                                        <button type="button" class="icon-btn" data-icon="fas fa-mobile-alt"><i class="fas fa-mobile-alt"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-laptop"><i class="fas fa-laptop"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-tablet-alt"><i class="fas fa-tablet-alt"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-tv"><i class="fas fa-tv"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-gamepad"><i class="fas fa-gamepad"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-print"><i class="fas fa-print"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-network-wired"><i class="fas fa-network-wired"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-wifi"><i class="fas fa-wifi"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-home"><i class="fas fa-home"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-lightbulb"><i class="fas fa-lightbulb"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-plug"><i class="fas fa-plug"></i></button>
+                                        <button type="button" class="icon-btn" data-icon="fas fa-camera"><i class="fas fa-camera"></i></button>
+                                    </div>
+                                </div>
+                                <div class="file-upload">
+                                    <label for="iconFile">或上传图标文件:</label>
+                                    <input type="file" id="iconFile" accept="image/*">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="description">描述</label>
+                                <textarea id="description" rows="3" placeholder="设备详细描述"></textarea>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-secondary" id="cancelBtn">取消</button>
+                                <button type="submit" class="btn btn-primary">保存</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 统计信息 -->
+            <section class="stats-section">
+                <h2><i class="fas fa-chart-bar"></i> 统计信息</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="totalDevices">0</h3>
+                            <p>总设备数</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="mobileDevices">0</h3>
+                            <p>手机设备</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="smartHomeDevices">0</h3>
+                            <p>智能家居</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 id="computerDevices">0</h3>
+                            <p>电脑设备</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 设备管理后台 | 小米路由器设备备注系统</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

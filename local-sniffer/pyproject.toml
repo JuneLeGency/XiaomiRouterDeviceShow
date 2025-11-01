@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "local-sniffer"
+version = "0.1.0"
+description = "局域网设备扫描工具，获取设备IP、MAC地址和设备名称"
+readme = "README.md"
+authors = [
+    {name = "Claude Code", email = "noreply@anthropic.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: System :: Networking",
+    "Topic :: Utilities"
+]
+requires-python = ">=3.7"
+dependencies = [
+    "scapy>=2.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=21.0",
+    "flake8>=3.8"
+]
+
+[project.scripts]
+local-sniffer = "network_scanner:main"
+
+[project.urls]
+Homepage = "https://github.com/your-username/local-sniffer"
+Repository = "https://github.com/your-username/local-sniffer"
+"Bug Tracker" = "https://github.com/your-username/local-sniffer/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["network_scanner.py"]
+
+[tool.hatch.build.targets.sdist]
+packages = ["network_scanner.py"]

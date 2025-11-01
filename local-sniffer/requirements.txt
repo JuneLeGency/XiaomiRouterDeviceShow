@@ -1,0 +1,38 @@
+# Local Network Sniffer Requirements
+# 本地网络扫描工具依赖
+
+# 网络扫描核心库
+scapy>=2.5.0
+python-nmap>=0.7.1
+
+# 异步支持
+asyncio-mqtt>=0.13.0
+aiofiles>=23.0.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 网络工具
+requests>=2.31.0
+urllib3>=2.0.0
+
+# MAC地址厂商查询
+mac-vendor-lookup>=0.1.12
+
+# 命令行界面
+click>=8.1.0
+rich>=13.0.0
+
+# 配置文件处理
+pyyaml>=6.0
+toml>=0.10.2
+
+# 日志处理
+loguru>=0.7.0
+
+# 开发工具 (可选)
+pytest>=7.4.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0

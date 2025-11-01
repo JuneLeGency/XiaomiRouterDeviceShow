@@ -1,0 +1,21 @@
+{
+  "name": "nextgen-network-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "web-ui",
+    "chrome-extension"
+  ],
+  "scripts": {
+    "dev:web": "cd web-ui && npm run dev",
+    "dev:extension": "cd chrome-extension && npm run dev",
+    "build:web": "cd web-ui && npm run build",
+    "build:extension": "cd chrome-extension && npm run build:extension",
+    "build:all": "npm run build:web && npm run build:extension",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
