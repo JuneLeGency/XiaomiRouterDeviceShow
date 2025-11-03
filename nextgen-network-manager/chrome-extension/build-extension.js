@@ -14,6 +14,26 @@ const distSrcDir = path.join(distDir, 'dist');
 console.log('Copying Vite build output...');
 fs.cpSync(path.join(process.cwd(), 'dist'), distSrcDir, { recursive: true });
 
+// 修复HTML文件中的资源引用路径
+console.log('Fixing HTML resource paths...');
+const htmlPath = path.join(distSrcDir, 'src', 'popup', 'index.html');
+if (fs.existsSync(htmlPath)) {
+  let htmlContent = fs.readFileSync(htmlPath, 'utf8');
+  
+  // 修复绝对路径为相对路径
+  htmlContent = htmlContent.replace(
+    '<script type="module" crossorigin src="/popup.js"></script>',
+    '<script type="module" crossorigin src="../../popup.js"></script>'
+  );
+  htmlContent = htmlContent.replace(
+    '<link rel="stylesheet" crossorigin href="/popup.css">',
+    '<link rel="stylesheet" crossorigin href="../../popup.css">'
+  );
+  
+  fs.writeFileSync(htmlPath, htmlContent);
+  console.log('Fixed popup HTML resource paths');
+}
+
 // 复制manifest.json
 console.log('Copying manifest.json...');
 fs.copyFileSync(

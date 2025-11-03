@@ -11,7 +11,10 @@ const CONFIG = {
 // 工具函数：获取完整的图标URL
 const getFullIconUrl = (iconUrl: string): string => {
   if (!iconUrl) return '';
-  
+
+  if (iconUrl.startsWith(CONFIG.STATIC_UPLOADS_PATH)){
+        return `${CONFIG.API_HOST}${iconUrl}`;
+    }
   // 如果已经是完整URL或data URI，直接返回
   if (iconUrl.startsWith('http') || iconUrl.startsWith('data:') || iconUrl.startsWith('/')) {
     return iconUrl;
@@ -25,6 +28,136 @@ const getFullIconUrl = (iconUrl: string): string => {
   // 否则认为是CSS类名，直接返回
   return iconUrl;
 };
+
+// 在td标签下设置dev-icon背景图片
+function injectDevIconToTd(macElement: Element, device: any) {
+  try {
+    // 找到包含MAC地址的li元素，然后找到其父级td
+    const macSpan = macElement as HTMLElement;
+    const parentLi = macSpan.closest('li') as HTMLElement;
+    if (!parentLi) return;
+    
+    const parentTd = parentLi.closest('td') as HTMLElement;
+    if (!parentTd) return;
+    
+    // 预先设置固定布局，防止后续添加背景时跳动
+    prepareDevIconLayout(parentTd);
+    
+    // 检查是否已经设置了背景，避免重复设置
+    if (parentTd.dataset.devIconSet === 'true') {
+      // 如果已设置，更新背景图片
+      if (device.icon_url) {
+        const fullIconUrl = getFullIconUrl(device.icon_url);
+        if (fullIconUrl.startsWith('http') || fullIconUrl.startsWith('/') || fullIconUrl.startsWith('data:')) {
+          setTdBackgroundIcon(parentTd, fullIconUrl);
+        }
+      }
+      return;
+    }
+    
+    // 只有当设备有图标URL且是图片格式时才设置背景
+    if (device.icon_url) {
+      const fullIconUrl = getFullIconUrl(device.icon_url);
+      
+      if (fullIconUrl.startsWith('http') || fullIconUrl.startsWith('/') || fullIconUrl.startsWith('data:')) {
+        setTdBackgroundIcon(parentTd, fullIconUrl);
+        parentTd.dataset.devIconSet = 'true';
+        console.log(`为设备 ${device.note || 'unknown'} 设置了 dev-icon 背景图片`);
+      }
+    }
+  } catch (error) {
+    console.error('设置dev-icon背景图片失败:', error);
+  }
+}
+
+// 为未识别设备设置默认的dev-icon背景图片
+function injectDefaultDevIconToTd(macElement: Element) {
+  try {
+    // 找到包含MAC地址的li元素，然后找到其父级td
+    const macSpan = macElement as HTMLElement;
+    const parentLi = macSpan.closest('li') as HTMLElement;
+    if (!parentLi) return;
+    
+    const parentTd = parentLi.closest('td') as HTMLElement;
+    if (!parentTd) return;
+    
+    // 预先设置固定布局，防止后续添加背景时跳动
+    prepareDevIconLayout(parentTd);
+    
+    // 检查是否已经设置了背景，避免重复设置
+    if (parentTd.dataset.devIconSet === 'true') return;
+    
+    // 设置默认的dev-icon背景图片
+    setTdBackgroundIcon(parentTd, '/img/device_list_unknow.png');
+    parentTd.dataset.devIconSet = 'true';
+    
+    console.log('为未识别设备设置了默认的 dev-icon 背景图片');
+  } catch (error) {
+    console.error('设置默认dev-icon背景图片失败:', error);
+  }
+}
+
+// 预先准备dev-icon的布局，防止后续操作导致跳动
+function prepareDevIconLayout(tdElement: HTMLElement) {
+  try {
+    // 如果已经准备过布局，直接返回
+    if (tdElement.dataset.layoutPrepared === 'true') return;
+    
+    // 设置固定的左内边距，为背景图片预留空间
+    if (!tdElement.style.paddingLeft || tdElement.style.paddingLeft === '0px') {
+      tdElement.style.paddingLeft = '80px';
+    }
+    
+    // 设置td为相对定位
+    tdElement.style.position = 'relative';
+    
+    // 为所有直接子元素设置相对定位和z-index，确保它们在背景图片之上
+    const children = tdElement.children;
+    for (let i = 0; i < children.length; i++) {
+      const child = children[i] as HTMLElement;
+      if (child.style.position !== 'absolute') {
+        child.style.position = 'relative';
+        child.style.zIndex = '1';
+      }
+    }
+    
+    // 标记布局已准备
+    tdElement.dataset.layoutPrepared = 'true';
+    
+  } catch (error) {
+    console.error('准备dev-icon布局失败:', error);
+  }
+}
+
+// 设置td元素的背景图标
+function setTdBackgroundIcon(tdElement: HTMLElement, iconUrl: string) {
+  try {
+    // 设置背景图片样式（布局已在prepareDevIconLayout中准备好）
+    tdElement.style.backgroundImage = `url('${iconUrl}')`;
+    tdElement.style.backgroundSize = '60px 60px';
+    tdElement.style.backgroundRepeat = 'no-repeat';
+    tdElement.style.backgroundPosition = '10px center';
+    
+    // 添加错误处理，当图片加载失败时使用默认图片
+    const testImg = new Image();
+    testImg.onload = function() {
+      // 图片加载成功，保持当前设置
+    };
+    testImg.onerror = function() {
+      // 图片加载失败，使用默认错误图片
+      tdElement.style.backgroundImage = `url('/img/device_list_error.png')`;
+    };
+    testImg.src = iconUrl;
+    
+  } catch (error) {
+    console.error('设置TD背景图标失败:', error);
+    // 出错时设置默认错误图片
+    tdElement.style.backgroundImage = `url('/img/device_list_error.png')`;
+    tdElement.style.backgroundSize = '60px 60px';
+    tdElement.style.backgroundRepeat = 'no-repeat';
+    tdElement.style.backgroundPosition = '10px center';
+  }
+}
 
 // 检查是否有冲突的库
 if (typeof navigator !== 'undefined' && navigator.mediaDevices) {
@@ -218,6 +351,9 @@ async function injectDeviceNotes() {
           if (device) {
             console.log(`找到设备 ${mac}，注入备注信息`);
             
+            // 注入td标签下的dev-icon图片
+            injectDevIconToTd(element, device);
+            
             // 创建设备图标元素
             let iconElement = '';
             if (device.icon_url) {
@@ -263,6 +399,10 @@ async function injectDeviceNotes() {
             `;
           } else {
             console.log(`未找到设备 ${mac} 的备注信息`);
+            
+            // 为未识别设备添加默认的dev-icon图片
+            injectDefaultDevIconToTd(element);
+            
             noteContainer.innerHTML = `
               <div style="display: flex; align-items: center; gap: 8px; min-height: 40px;">
                 <div style="flex-shrink: 0;">

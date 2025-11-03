@@ -1,13 +1,37 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8" /&gt;
-    &lt;link rel="icon" type="image/svg+xml" href="/vite.svg" /&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
-    &lt;title&gt;设备管理&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div id="root"&gt;&lt;/div&gt;
-    &lt;script type="module" src="/src/popup/index.tsx"&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextGen Network Manager</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 920px;
+        height: 720px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #f5f5f5;
+        overflow: hidden;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      /* Ant Design 样式重置 */
+      .ant-modal-mask {
+        position: fixed !important;
+      }
+      .ant-modal-wrap {
+        position: fixed !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>

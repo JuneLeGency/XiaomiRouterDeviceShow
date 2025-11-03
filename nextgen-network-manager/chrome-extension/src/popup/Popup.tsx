@@ -24,10 +24,86 @@ import {
 } from '@ant-design/icons';
 import type { ColumnsType } from 'antd/es/table';
 import type { UploadProps } from 'antd/es/upload';
-import { CONFIG, processDeviceIcon } from '../config';
+import { CONFIG, getApiHost } from '../config';
+import Settings from './Settings';
 
 const { Title } = Typography;
 const { Option } = Select;
+
+// 设备图标组件
+const DeviceIcon: React.FC<{ device: any }> = ({ device }) => {
+  const [iconUrl, setIconUrl] = useState<string>('');
+
+  useEffect(() => {
+    const loadIcon = async () => {
+      const finalIconUrl = await processDeviceIconAsync(device);
+      setIconUrl(finalIconUrl);
+    };
+    loadIcon();
+  }, [device]);
+
+  if (!iconUrl) {
+    return (
+      <div style={{ 
+        width: 32, 
+        height: 32, 
+        backgroundColor: '#f5f5f5', 
+        borderRadius: 4, 
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'center', 
+        fontSize: 12, 
+        color: '#999' 
+      }}>?</div>
+    );
+  }
+
+  if (iconUrl.startsWith('http') || iconUrl.startsWith('/') || iconUrl.startsWith('data:')) {
+    return (
+      <div style={{ position: 'relative' }}>
+        <img 
+          src={iconUrl} 
+          alt="设备图标" 
+          style={{ width: 32, height: 32, borderRadius: 4, objectFit: 'cover' }} 
+          onError={(e) => {
+            e.currentTarget.style.display = 'none';
+            const fallback = e.currentTarget.nextElementSibling as HTMLElement;
+            if (fallback) fallback.style.display = 'flex';
+          }} 
+        />
+        <div style={{ 
+          width: 32, 
+          height: 32, 
+          backgroundColor: '#f5f5f5', 
+          borderRadius: 4, 
+          display: 'none', 
+          alignItems: 'center', 
+          justifyContent: 'center', 
+          fontSize: 12, 
+          color: '#999' 
+        }}>?</div>
+      </div>
+    );
+  } else {
+    return <i className={iconUrl} style={{ fontSize: 24 }}></i>;
+  }
+};
+
+// 异步处理设备图标的函数
+const processDeviceIconAsync = async (device: any): Promise<string> => {
+  // 优先级: neg480 > neg168 > big_icon_url > icon_url
+  const iconFields = ['neg480', 'neg168', 'big_icon_url', 'icon_url'];
+  
+  for (const field of iconFields) {
+    const iconUrl = device[field];
+    if (iconUrl) {
+      const { getFullIconUrl } = await import('../config');
+      return await getFullIconUrl(iconUrl);
+    }
+  }
+  
+  return '';
+};
 
 interface Device {
   id: number;
@@ -45,17 +121,33 @@ const Popup: React.FC = () => {
   const [devices, setDevices] = useState<Device[]>([]);
   const [loading, setLoading] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
+  const [settingsVisible, setSettingsVisible] = useState(false);
   const [editingDevice, setEditingDevice] = useState<Device | null>(null);
+  const [apiHost, setApiHostState] = useState(CONFIG.API_HOST);
   const [form] = Form.useForm();
+
+  // 初始化API主机地址
+  useEffect(() => {
+    const initApiHost = async () => {
+      const host = await getApiHost();
+      setApiHostState(host);
+    };
+    initApiHost();
+  }, []);
 
   const fetchDevices = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`${CONFIG.API_HOST}/api/devices`);
+      const currentApiHost = await getApiHost();
+      const response = await fetch(`${currentApiHost}/api/devices`);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
       const data = await response.json();
       setDevices(data);
     } catch (error) {
-      message.error('获取设备列表失败');
+      console.error('获取设备列表失败:', error);
+      message.error(`获取设备列表失败: ${error instanceof Error ? error.message : '未知错误'}`);
     } finally {
       setLoading(false);
     }
@@ -79,7 +171,8 @@ const Popup: React.FC = () => {
 
   const handleDeleteDevice = async (mac: string) => {
     try {
-      const response = await fetch(`${CONFIG.API_HOST}/api/devices/${mac}`, {
+      const currentApiHost = await getApiHost();
+      const response = await fetch(`${currentApiHost}/api/devices/${mac}`, {
         method: 'DELETE',
       });
 
@@ -96,9 +189,10 @@ const Popup: React.FC = () => {
 
   const handleFinish = async (values: any) => {
     try {
+      const currentApiHost = await getApiHost();
       const url = editingDevice
-        ? `${CONFIG.API_HOST}/api/devices/${editingDevice.mac}`
-        : `${CONFIG.API_HOST}/api/devices`;
+        ? `${currentApiHost}/api/devices/${editingDevice.mac}`
+        : `${currentApiHost}/api/devices`;
       const method = editingDevice ? 'PUT' : 'POST';
 
       const response = await fetch(url, {
@@ -129,30 +223,7 @@ const Popup: React.FC = () => {
       key: 'icon',
       width: 60,
       render: (_: string, record: any) => {
-        // 使用新的图标优先级处理逻辑
-        const finalIconUrl = processDeviceIcon(record);
-        
-        if (!finalIconUrl) return <div style={{ width: 32, height: 32, backgroundColor: '#f5f5f5', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, color: '#999' }}>?</div>;
-
-        if (finalIconUrl.startsWith('http') || finalIconUrl.startsWith('/') || finalIconUrl.startsWith('data:')) {
-          return (
-            <div style={{ position: 'relative' }}>
-              <img 
-                src={finalIconUrl} 
-                alt="设备图标" 
-                style={{ width: 32, height: 32, borderRadius: 4, objectFit: 'cover' }} 
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  const fallback = e.currentTarget.nextElementSibling as HTMLElement;
-                  if (fallback) fallback.style.display = 'flex';
-                }} 
-              />
-              <div style={{ width: 32, height: 32, backgroundColor: '#f5f5f5', borderRadius: 4, display: 'none', alignItems: 'center', justifyContent: 'center', fontSize: 12, color: '#999' }}>?</div>
-            </div>
-          );
-        } else {
-          return <i className={finalIconUrl} style={{ fontSize: 24 }}></i>;
-        }
+        return <DeviceIcon device={record} />;
       },
     },
     {
@@ -218,9 +289,14 @@ const Popup: React.FC = () => {
     },
   ];
 
+  const onApiHostChange = (newHost: string) => {
+    setApiHostState(newHost);
+    fetchDevices(); // 重新获取设备列表
+  };
+
   const props: UploadProps = {
     name: 'file',
-    action: `${CONFIG.API_HOST}/api/upload-icon`,
+    action: `${apiHost}/api/upload-icon`,
     headers: {
       authorization: 'authorization-text',
     },
@@ -241,7 +317,46 @@ const Popup: React.FC = () => {
   };
 
   return (
-    <div style={{ width: 900, padding: 20 }}>
+    <div style={{ 
+      width: '100%', 
+      height: '100%',
+      padding: 16, 
+      overflow: 'auto',
+      background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)'
+    }}>
+      {/* API状态指示器 */}
+      <div style={{ 
+        marginBottom: 16, 
+        padding: 10, 
+        background: 'linear-gradient(135deg, #f0f2f5, #e6f7ff)', 
+        border: '1px solid #d9d9d9',
+        borderRadius: 6, 
+        fontSize: 12,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}>
+        <div>
+          <span style={{ color: '#666' }}>API: </span>
+          <code style={{ 
+            background: '#fff', 
+            padding: '2px 8px', 
+            borderRadius: 4, 
+            border: '1px solid #d9d9d9',
+            fontFamily: 'Monaco, Consolas, monospace',
+            fontSize: 11
+          }}>{apiHost}</code>
+        </div>
+        <Button 
+          type="primary"
+          size="small" 
+          onClick={() => setSettingsVisible(true)}
+          style={{ fontSize: 11 }}
+        >
+          🔧 设置
+        </Button>
+      </div>
+
       <Row gutter={16} style={{ marginBottom: 24 }}>
         <Col span={6}>
           <Card size="small">
@@ -359,6 +474,13 @@ const Popup: React.FC = () => {
           </Form.Item>
         </Form>
       </Modal>
+
+      {/* 设置组件 */}
+      <Settings 
+        visible={settingsVisible}
+        onClose={() => setSettingsVisible(false)}
+        onApiHostChange={onApiHostChange}
+      />
     </div>
   );
 };
